@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("../assets/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+    position: relative;
+    color: #f5f5f5; /* Light text color for readability */
+}
+
+header {
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.85); /* Darker header for a sleek look */
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 60px; /* Increased height for better spacing */
+    border-bottom: 1px solid #444;
+}
+
+.header-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    color: #FFD700; /* Gold color for logo */
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: #FFD700;
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #FFD700; /* Gold background on hover */
+    color: #222; /* Dark text color on hover */
+}
+
+.navbar-right {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.logout-btn {
+    color: #FFD700;
+    margin-right: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.logout-btn:hover {
+    color: #FFC107; /* Slightly lighter gold */
+}
+
+.register-btn, .login-btn, #home-btn {
+    font-size: 16px;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.register-btn:hover, .login-btn:hover, #home-btn:hover {
+    color: #FFD700;
+}
+
+#headline {
+    color: #f5f5f5;
+    font-weight: 300;
+    font-size: 48px;
+    background: linear-gradient(90deg, #E85421, orange);
+    display: inline;
+    -webkit-background-clip: text;
+    color: transparent; /* Gradient text effect */
+}
+
+.headline {
+    max-width: 480px;
+}
+
+.primary-heading {
+    color: #FFD700;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.tertiary-heading {
+    color: #f5f5f5;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+.redirect-link {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redirect-link:hover {
+    text-decoration: underline;
+    color: #FFC107; /* Lighter gold on hover */
+}
+
+.update-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.delete-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+}
